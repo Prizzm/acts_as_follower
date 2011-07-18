@@ -9,17 +9,20 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{uthor Name}]
-  s.date = %q{2011-07-16}
+  s.date = %q{2011-07-18}
   s.description = %q{longer description of your gem}
   s.email = %q{email@address.com}
   s.extra_rdoc_files = [
     "README.rdoc"
   ]
   s.files = [
+    "Gemfile",
+    "Gemfile.lock",
     "MIT-LICENSE",
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "acts_as_follower.gemspec",
     "lib/acts_as_follower.rb",
     "lib/acts_as_follower/followable.rb",
     "lib/acts_as_follower/follower.rb",
@@ -40,7 +43,7 @@ Gem::Specification.new do |s|
     "test/schema.rb",
     "test/test_helper.rb"
   ]
-  s.homepage = %q{github repo url}
+  s.homepage = %q{https://github.com/sid137/acts_as_follower}
   s.licenses = [%q{MIT}]
   s.require_paths = [%q{lib}]
   s.rubygems_version = %q{1.8.5}
